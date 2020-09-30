@@ -1,0 +1,20 @@
+---
+title: Final Presentation
+author: JSSihm
+date: '2020-09-30'
+slug: final-presentation
+categories:
+  - R
+tags:
+  - plot
+  - R Markdown
+---
+
+
+
+<pre class="r"><code>library( ggplot2 )
+ggplot( mtcars, aes(x=disp, y=mpg) ) + 
+  geom_point( ) + 
+  geom_smooth( method=&quot;lm&quot;, color=&quot;red&quot;, se=FALSE )</code></pre>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="/post/2020-09-30-final-presentation_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>

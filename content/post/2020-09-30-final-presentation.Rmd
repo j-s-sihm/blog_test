@@ -1,0 +1,18 @@
+---
+title: Final Presentation
+author: JSSihm
+date: '2020-09-30'
+slug: final-presentation
+categories:
+  - R
+tags:
+  - plot
+  - R Markdown
+---
+
+```{r}
+library( ggplot2 )
+ggplot( mtcars, aes(x=disp, y=mpg) ) + 
+  geom_point( ) + 
+  geom_smooth( method="lm", color="red", se=FALSE )
+```
